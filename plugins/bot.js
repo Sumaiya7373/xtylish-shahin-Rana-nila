@@ -8,7 +8,7 @@ module.exports = {
     prefix: "both",
     categorie: "AI Chat",
     cooldowns: 5,
-    credit: "Developed by Mohammad Nayan",
+    credit: "Developed by Shahin Rana",
     usages: [
       `${global.config.PREFIX}bot <message> - Start a chat with the bot.`,
       `${global.config.PREFIX}bot - Receive a random greeting from the bot.`,
@@ -29,7 +29,7 @@ module.exports = {
   "আহ শোনা আমার আমাকে এতো ডাক্তাছো কেনো আসো বুকে আশো🥱",
   "হুম জান তোমার অইখানে উম্মমাহ😷😘",
   "আসসালামু আলাইকুম বলেন আপনার জন্য কি করতে পারি",
-  "আমাকে এতো না ডেকে বস নয়নকে একটা গফ দে 🙄",
+  "আমাকে এতো না ডেকে বস শাহীন কে একটা গফ দে 🙄",
   "আরে বাবা, আমায় ডাকলে চা-নাস্তা তো লাগবেই ☕🍪",
   "এই যে শুনছেন, আমি কিন্তু আপনার জন্যই অনলাইনে আছি 😉",
   "ডাক দিলেন তো আসলাম, এখন ভাড়া দিবেন নাকি? 😏",
