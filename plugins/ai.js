@@ -9,7 +9,7 @@ module.exports = {
     description: 'AI chatbot using GPT-3 API.',
     categories: 'AI Chat',
     usages: ['.ai on', '.ai off', '.ai hi'],
-    credit: 'Developed by Mohammad Nayan'
+    credit: 'Developed by Shahin Rana'
   },
 
   start: async ({ event, api, args }) => {
@@ -57,7 +57,7 @@ module.exports = {
     if (isGroup) return;
 
     try {
-      const apis = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/main/api.json');
+      const apis = await axios.get('https://raw.githubusercontent.com/Shahin-Rana-420/Shahin/main/api.json');
       const apiss = apis.data.api;
       const response = await axios.get(`${apiss}/nayan/gpt3?prompt=${encodeURIComponent(body)}`);
       const aiResponse = response.data.response || 'I am unable to process your request at the moment.';
