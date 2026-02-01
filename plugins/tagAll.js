@@ -7,7 +7,7 @@ module.exports = {
         description: 'Mentions all members of a group with stylish greetings.',
         categories: 'group',
         usages: [`${global.config.PREFIX}tagall [optional message]`],
-        credit: 'Developed by Mohammad Nayan'
+        credit: 'Developed by Shahin Rana'
     },
 
     start: async ({ event, api, args }) => {
@@ -45,11 +45,11 @@ module.exports = {
         let mentions = [];
 
         participants.forEach((participant, index) => {
-            mentionText += `🔹 ${index + 1}. @${participant.id.split('@')[0]}\n`;
+            mentionText += `💠 ${index + 1}. @${participant.id.split('@')[0]}\n`;
             mentions.push(participant.id);
         });
 
-        mentionText += `\n💌 Have a great day, everyone!`;
+        mentionText += `\n💌 Love with, Shahin Rana!`;
 
         
         await api.sendMessage(threadId, {
