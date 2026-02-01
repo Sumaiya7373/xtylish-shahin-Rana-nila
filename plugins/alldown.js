@@ -25,7 +25,7 @@ const path = require("path");
     const url = body.trim();
 
     try {
-      const data = await axios.get(`https://nayan-video-downloader.vercel.app/alldown?url=${url}`);
+      const data = await axios.get(`https://Shahin-video-downloader.vercel.app/alldown?url=${url}`);
 
       if (!data.data || !data.data.data) {
         await react("❌")
@@ -83,7 +83,7 @@ const path = require("path");
     const url = args[0];
 
     try {
-      const data = await axios.get(`https://nayan-video-downloader.vercel.app/alldown?url=${url}`);
+      const data = await axios.get(`https://Shahin-video-downloader.vercel.app/alldown?url=${url}`);
 
       if (!data.data || !data.data.data) {
         await react("❌")
