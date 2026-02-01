@@ -8,7 +8,7 @@ module.exports = {
     prefix: true,
     description: 'Show all available commands.',
     category: 'Utility',
-    credit: 'Developed by Mohammad Nayan',
+    credit: 'Developed by Shahin Rana',
     usages: ['help', 'help [command name]'],
   },
 
@@ -57,7 +57,7 @@ module.exports = {
 │ 🔹 Usage: ${command.usage || command.usages?.join("\n│   ") || "Not defined"}
 │ 🔹 Permission: ${command.permission}
 │ 🔹 Category: ${command.category || "Uncategorized"}
-│ 🔹 Credits: ${command.credit || command.credits || "Mohammad Nayan"}
+│ 🔹 Credits: ${command.credit || command.credits || "Shahin Rana"}
 ╰────────────────────╯`;
         await api.sendMessage(threadId, { text: infoText });
       } else {
@@ -90,9 +90,9 @@ module.exports = {
     });
     // ───── MAIN HELP MENU ─────
     let responseText = `
-╭─❖  𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗠𝗘𝗡𝗨  ❖─╮
-│ 💎 𝘽𝙤𝙩: ${global.config.botName || "EMon System"}
-│ 👑 Owner: ${global.config.botOwner || "Mohammad Nayan"}
+╭─❖  💖 *~_𝐗𝐭𝐲𝐥𝐢𝐬𝐡 𝐬𝐡𝐚𝐡𝐢𝐧 𝐑𝐚𝐧𝐚_~*  ❖─╮
+│ 💎 𝘽𝙤𝙩: ${global.config.botName || "Xtylish Rana"}
+│ 👑 Owner: ${global.config.botOwner || "Shahin Rana"}
 │ 🌍 Global Prefix: \`${globalPrefix}\`
 │ 👥 Group Prefix: \`${prefix || "Not set (using global)"}\`
 │ 🧩 Version: ${pkg.version}
