@@ -7,7 +7,7 @@ module.exports = {
     description: 'Automatically reacts to messages in a thread.',
     categories: 'utility',
     usages: ['autoreact on', 'autoreact off'],
-    credit: 'Developed by Mohammad Nayan',
+    credit: 'Developed by Shahin Rana',
   },
 
   start: async ({ event, api, args }) => {
